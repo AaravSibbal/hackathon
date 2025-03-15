@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    <h1>we starting for real now</h1>
-    <script src="js/index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX7u423gjL3ckJdmtpKsFavj6aPhCAgJw&callback=initMap&libraries=places"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="search-box">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search for a place..."
+      />
+    </div>
+    <div id="map"></div>
+    <script src="js/app.js"></script>
+  </body>
 </html>
